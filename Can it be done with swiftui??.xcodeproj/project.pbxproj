@@ -13,6 +13,9 @@
 		00252F76262D9C6000C2D4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00252F75262D9C6000C2D4EF /* Assets.xcassets */; };
 		00252F79262D9C6000C2D4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00252F78262D9C6000C2D4EF /* Preview Assets.xcassets */; };
 		00252F7C262D9C6000C2D4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00252F7A262D9C6000C2D4EF /* LaunchScreen.storyboard */; };
+		00252F85262D9D0700C2D4EF /* LiquidSwipeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00252F84262D9D0700C2D4EF /* LiquidSwipeAnimation.swift */; };
+		003D045326302E8A00F52F1A /* Tour Finder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D045226302E8A00F52F1A /* Tour Finder.swift */; };
+		0095BA9126326608002CC034 /* showLoginAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095BA9026326608002CC034 /* showLoginAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		00252F78262D9C6000C2D4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00252F7B262D9C6000C2D4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00252F7D262D9C6000C2D4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00252F84262D9D0700C2D4EF /* LiquidSwipeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipeAnimation.swift; sourceTree = "<group>"; };
+		003D045226302E8A00F52F1A /* Tour Finder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tour Finder.swift"; sourceTree = "<group>"; };
+		0095BA9026326608002CC034 /* showLoginAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showLoginAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				00252F6F262D9C5200C2D4EF /* AppDelegate.swift */,
 				00252F71262D9C5200C2D4EF /* SceneDelegate.swift */,
 				00252F73262D9C5200C2D4EF /* ContentView.swift */,
+				0095BA9026326608002CC034 /* showLoginAnimation.swift */,
+				00252F84262D9D0700C2D4EF /* LiquidSwipeAnimation.swift */,
+				003D045226302E8A00F52F1A /* Tour Finder.swift */,
 				00252F75262D9C6000C2D4EF /* Assets.xcassets */,
 				00252F7A262D9C6000C2D4EF /* LaunchScreen.storyboard */,
 				00252F7D262D9C6000C2D4EF /* Info.plist */,
@@ -145,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003D045326302E8A00F52F1A /* Tour Finder.swift in Sources */,
 				00252F70262D9C5200C2D4EF /* AppDelegate.swift in Sources */,
+				00252F85262D9D0700C2D4EF /* LiquidSwipeAnimation.swift in Sources */,
 				00252F72262D9C5200C2D4EF /* SceneDelegate.swift in Sources */,
 				00252F74262D9C5200C2D4EF /* ContentView.swift in Sources */,
+				0095BA9126326608002CC034 /* showLoginAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
